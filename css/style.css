@@ -6,36 +6,42 @@ body {
 }
 
 .logo {
-    border: 1px solid #505050;
     border-radius: 100%;   
+    margin-top: 0;
+  
 }
 
-#title, .subtitle, .post_title{
+#title{
     color: #505050;;
 }
 
 #title{
+    text-align: center;
     font-size: 40px;
     text-transform: uppercase;
 }
 
+.subtitle{
+    margin-left: 15px;
+    color: #6F787C
+}
+
 a {
-    text-decoration: line-through;
-    color: #505050;;
+    color: #505050;
+    text-decoration-line: none;
 }
 
 .post_title{
+    color: #6F787C;
     font-size: 16px;
-    font-style: italic;
     margin: 0;
     margin-bottom: 15px;
     text-transform: capitalize;
 }
 
 .post{
-    background-color: #fff;
+    background-color: #EFF2FF;
     padding: 15px;
-   /*  border: 3px solid #505050; */
     margin-bottom: 15px;
 }
 
